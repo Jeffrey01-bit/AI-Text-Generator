@@ -1,4 +1,4 @@
-from vaderSentiment import SentimentIntensityAnalyzer
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 class SentimentAnalyzer:
     """Performs sentiment analysis using the VADER model."""
