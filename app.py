@@ -1,5 +1,5 @@
 import streamlit as st
-from sentiment_analyzer import SentimentAnalyzer
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from text_generator import TextGenerator
 
 # Initialize components
